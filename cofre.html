@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analizador de senha</title>
+    <meta charset='utf-8' lang='pt-br'>
+    <script src="cofre.js"></script>
+    <link rel="stylesheet" type="text/css" href="cofre.css">
+</head>
+<body>
+	<div class="miolo">
+    	<input type="text" class="senha item" name="senha" id="senha" autocomplete="off" placeholder="Sua senha"><!--
+    	--><button class="item" id="conferir" onclick="conferir()">Conferir</button>
+    	<p id="valida">A senha é válida!</p>
+    	<p id="invalida">A senha é inválida!</p>
+	</div>
+	<p class="regras"> 8 e 14 caracteres </br> Começar com uma letra </br> Dois desses caracteres !,@,#,$ </br> Letra maiúscula e outra minúscula</br> Dois números algébricos </p>
+</body>
+</html>
